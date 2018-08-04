@@ -2,8 +2,8 @@
 Java project using encog to train a neural network to play 2048. Neural Network weights are tuned using Genetic Algorithm
 
 
-### Average Score by Random Moves Player: 1086.2768
-### Average Score by Neural Player: 1160.16
+#### Average Score by Random Moves Player: 1086.2768
+#### Average Score by Neural Player: 1160.16
 
 
 | Max Tile Reached |	Random | Neural Network|
@@ -14,3 +14,5 @@ Java project using encog to train a neural network to play 2048. Neural Network 
 |128 |	2419 |	2337 |
 |256 |	361  |	444  |
 |512 |	0 	 | 1     |
+
+![alt text](https://github.com/sidd-pandey/2048-GANeural-AI/blob/master/barplot.png "Count of max tiles reached")
