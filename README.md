@@ -21,6 +21,6 @@ Even though it looks like random player out performs NN in raching till 128, NN 
 
 Feed Forward neural networks are used, with 16 tiles as input, 2 hidden layer with 100 and 25 ReLu units, output layer has 4 neurons with softmax activation function. 
 
-The fitness function used right now is maxScore*5 + tileCountChangeScore + changeInScore + finalScore/10. The main intution for adding other components than final score is to enable tune NN to reach higher tiles (max score) but also make moves which maximizes the collpases more number of tiles (else in many cases, NN was always repeatedly choosing a certain move, even though there was no change in game board through that move, ultimately getting stuck).
+The fitness function used right now is maxScore*5 + tileCountChangeScore + changeInScore + finalScore/10. The main intution for adding other components other than final score is to enable tune NN to reach higher tiles (max score) but also make moves which maximizes the collpases more number of tiles (else in many cases, NN was always repeatedly choosing a certain move, even though there was no change in game board through that move, ultimately getting stuck).
 
 Java implementaion of 2048 was taken from https://github.com/bulenkov/2048.
