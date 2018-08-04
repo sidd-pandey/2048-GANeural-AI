@@ -7,6 +7,7 @@ Java project using encog to train a neural network to play 2048. Neural Network 
 
 
 | Max Tile Reached |	Random | Neural Network|
+| ------------- |:-------------:| -----:|
 |16  | 17    |	13   |
 |32  | 329 	 |  338  |
 |64  |	1874 | 	1867 |
