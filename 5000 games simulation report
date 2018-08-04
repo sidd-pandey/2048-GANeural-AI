@@ -1,0 +1,21 @@
+Calulating average points score for 5000 games between Neural Network and Random Player
+Completed 0th simulation
+Completed 1000th simulation
+Completed 2000th simulation
+Completed 3000th simulation
+Completed 4000th simulation
+Average Random Score: 1086.2768
+Average Neural Player Score: 1160.16
+Best Tile Frequency for Random Player: 
+16.0 = 17
+32.0 = 329
+64.0 = 1874
+128.0 = 2419
+256.0 = 361
+Best Tile Frequency for NN Player: 
+16.0 = 13
+32.0 = 338
+64.0 = 1867
+128.0 = 2337
+256.0 = 444
+512.0 = 1
